@@ -13,7 +13,7 @@ Ultimate Performance Boost For Your Site. Merge and cache css/javascript files a
 Features
 
 *   Combine, minify and cache css files
-*   Combine and cache javascript fines - in header and footer
+*   Combine and cache javascript files - in header and footer
 *   Doing this job automatically
 
 == Installation ==
