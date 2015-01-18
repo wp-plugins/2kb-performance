@@ -3,7 +3,7 @@
  * Plugin Name: 2kb Performance
  * Plugin URI: http://www.2kblater.com
  * Description: Ultimate Performance Boost For Your Site. Merge and cache css/javascript files and reduce server request up to 90%.
- * Version: 1.0.0
+ * Version: 1.1.0
  * Author: 2kblater.com
  * Author URI: http://www.2kblater.com
  * License: GPL2
@@ -444,9 +444,9 @@ class kbPerformance
 \n
 /*\n 2kb-performance cached:\n $url \n*/ \n
 " . $string;
-        if (isset($js['ob']->extra['data']) && !empty($js['ob']->extra['data'])) {
-            $string = "\n" . $js['ob']->extra['data'] . "\n;\n" . $string;
-        }
+//        if (isset($js['ob']->extra['data']) && !empty($js['ob']->extra['data'])) {
+//            $string = "\n" . $js['ob']->extra['data'] . "\n;\n" . $string;
+//        }
         
         $string .= "\n;";
         return $string;
