@@ -444,9 +444,9 @@ class kbPerformance
 \n
 /*\n 2kb-performance cached:\n $url \n*/ \n
 " . $string;
-//        if (isset($js['ob']->extra['data']) && !empty($js['ob']->extra['data'])) {
-//            $string = "\n" . $js['ob']->extra['data'] . "\n;\n" . $string;
-//        }
+        if (isset($js['ob']->extra['data']) && !empty($js['ob']->extra['data'])) {
+            $string = "\n" . $js['ob']->extra['data'] . "\n;\n" . $string;
+        }
         
         $string .= "\n;";
         return $string;
